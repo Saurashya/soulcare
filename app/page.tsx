@@ -102,28 +102,12 @@ export default function Home() {
             >
               Professional Hypnotherapy & Holistic Healing Services
             </motion.p>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.5 }}
-              className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
-            >
-              <div className="flex items-center space-x-2 text-[#1E6F5C] text-sm">
-                <Sparkles className="w-4 h-4 text-[#D4AF37]" />
-                <span>Trusted by 1000+ clients</span>
-              </div>
-              <div className="flex items-center space-x-2 text-[#1E6F5C] text-sm">
-                <Heart className="w-4 h-4 text-[#D4AF37]" />
-                <span>95% satisfaction rate</span>
-              </div>
-            </motion.div>
-
             {/* CTA Buttons */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
-              className="flex flex-col sm:flex-row gap-6 justify-center items-center"
+              className="flex flex-col sm:flex-row gap-6 justify-center items-center !my-2"
             >
               <CTAButton href="/contact" variant="primary">
                 Book a Session

@@ -40,14 +40,13 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-24">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 group">
-            <Sparkles className="w-7 h-7 text-[#D4AF37] group-hover:text-[#1E6F5C] transition-colors" />
-            <span className="text-2xl font-bold font-['Playfair_Display'] text-[#1E6F5C] group-hover:text-[#D4AF37] transition-colors">
+            <span className="text-4xl font-bold font-['Playfair_Display'] text-[#1E6F5C] group-hover:text-[#D4AF37] transition-colors !ml-12">
               Soulcare
             </span>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center gap-8 !text-md">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -60,7 +59,7 @@ export default function Navbar() {
             ))}
             <Link
               href="/contact"
-              className="px-6 py-2.5 bg-gradient-to-r from-[#1E6F5C] to-[#2D8A72] text-white rounded-full hover:from-[#D4AF37] hover:to-[#F4D03F] transition-all duration-300 shadow-healing hover:shadow-healing-lg transform hover:-translate-y-0.5 font-semibold hover-scale"
+              className="!py-1 !px-2 bg-gradient-to-r from-[#1E6F5C] to-[#2D8A72] text-white rounded-full hover:from-[#D4AF37] hover:to-[#F4D03F] transition-all duration-300 shadow-healing hover:shadow-healing-lg transform hover:-translate-y-0.5 font-semibold hover-scale text-md"
             >
               Book Session
             </Link>
