@@ -25,7 +25,7 @@ export default function HeroSection() {
             className="mb-8"
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-[#1E6F5C] mb-6 font-['Playfair_Display'] leading-[1.1]">
-              Heal Your Body. Heal Your Soul.
+              Heal Your Body. <br/>Heal Your Soul.
               <br />
               <span className="text-gradient-gold">Restore Your Inner Peace.</span>
             </h1>
